@@ -29,11 +29,19 @@ ul{
 code{
 	background:#eee;
 	border:1px solid #ddd;
-	padding:2px 4px;
+	padding:0 4px;
+	line-height:1.4;
 	border-radius:4px;
+	word-break:break-word;
 }
 .mb-0{
 	margin-bottom:0;
+}
+.text-center{
+	text-align:center;
+}
+.lead{
+	font-size:24px;
 }
 .header{
 	background:#005bbc;
@@ -56,4 +64,9 @@ section{
 .current-bounty{
 	font-size:48px;
 	font-weight:bold;
+}
+@media (max-width: 600px) {
+	h1{
+		font-size:60px;
+	}
 }
