@@ -4,18 +4,58 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PutinBounty.world</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 <header class="header">
-	<h1>PutinBounty.world</h1>
+	#PutinBounty&nbsp;
+	<a href="https://twitter.com/search?q=%23PutinBounty" target="_blank"><img src="img/tw.svg" alt="Twitter"></a>
+	<a href="https://instagram.com/explore/tags/putinbounty/" target="_blank"><img src="img/ig.svg" alt="Instagram"></a>
 </header>
 <main class="main">
-	<h1>hello putin</h1>
-	main
+	<section class="">
+		<h1>Bounty for the capture of Vladimir Putin</h1>
+		<p>Wanted dead or alive for war crimes committed against the people of Ukraine</p>
+	</section>
+	<section class="">
+		<h2 class="mb-0">Current Bounty:</h2>
+		<p class="current-bounty"><span id="final_balance">0.1</span> BTC</p>
+		<p>To contribute to the bounty amount, send BTC to:</p>
+		<p>Bitcoin address: <code>bc1q9vgxt65qlhqy79wtr7348zdzpsrh8pj0m8r5gm</code></p>
+		<p><img width="120" src="img/qr.png" alt="qr"></p>
+		<p><a href="https://blockchain.com/btc/address/bc1q9vgxt65qlhqy79wtr7348zdzpsrh8pj0m8r5gm" target="_blank">Bitcoin Explorer</a></p>
+	</section>
+	<section class="">
+		<h2>Terms:</h2>
+		<ul>
+			<li>Bounty will be paid out to the individual or group of individuals who successfully capture Vladimir Putin.</li>
+			<li>Proof of responsibility required.</li>
+		</ul>
+	</section>
 </main>
-<footer class="footer">
-	footer
-</footer>
+<script>
+/*
+var HttpClient=function(){
+	this.get=function(aUrl,callback){
+		var anHttpRequest=new XMLHttpRequest();
+		anHttpRequest.onreadystatechange=function(){ 
+			if (anHttpRequest.readyState==4&&anHttpRequest.status==200)
+				callback(anHttpRequest.responseText);
+		}
+		anHttpRequest.open('GET',aUrl,true);			
+		anHttpRequest.send(null);
+	}
+}
+var client=new HttpClient();
+client.get('https://blockchain.info/rawaddr/bc1q9vgxt65qlhqy79wtr7348zdzpsrh8pj0m8r5gm',function(response){
+	var parsed=JSON.parse(response);
+	document.getElementById('final_balance').innerHTML=parsed.final_balance;
+});
+*/
+</script>
 </body>
 </html>
